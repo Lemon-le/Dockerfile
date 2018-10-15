@@ -1,3 +1,10 @@
+# Description: This dockerfile uses the centos image
+# Version：    V1.0
+# Author：     LiLe
+# Contact:     836217653@qq.com
+# Command：    docker build -t test/cowsay-dockerfile .
+
+
 FROM docker.io/centos
 RUN yum -y install wget
 RUN wget https://nodejs.org/dist/v8.12.0/node-v8.12.0-linux-x64.tar.xz
